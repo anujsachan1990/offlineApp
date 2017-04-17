@@ -1,23 +1,404 @@
-<!doctype html>
+
+ <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Offline HTML</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-	
+	<title>Anuj Sachan | UI Architect</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" id="isotope-css" href="assets/css/isotope.css" type="text/css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.easy-pie-chart.css" media="screen" >
+	<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" media="screen" >
+	<link rel="stylesheet" type="text/css" href="assets/css/demo_panel.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css" media="screen">
+	<link rel="stylesheet" href="style.css" media="all">
+	<link rel="stylesheet" href="assets/css/responsive.css" media="all" >
+	<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"type="text/javascript"></script>
+	<![endif]-->
 </head>
+<!--*********************body*****************************-->
 <body>
-	<div class="container">
-		<h1>Boilerplate Service Worker</h1>
+		<!-- loader -->
+		<div class="start_loader"></div>
+<!--*********************menu*****************************-->
+		<header class="wrap">
+            <!-- Mobile Menu -->
+			<div class="mobile-menu visible-tablet">
+                    <a href="#"></a>
+					<ul class="mobile-ul clearfix">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#resume">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>			
+			</div>
+            <!-- Desktop Menu -->
+			<div class="menu-area wrap hidden-tablet">
+				<div class="menu">
+					<ul class="clearfix">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#resume">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>						
+				</div>
+				<div class="menu-button-minus"></div>
+			</div>
+            <!-- Header Definition -->
+			<div class="header-titles">
+				<div class="name-title">ANUJ SACHAN</div>
+				<span id="title-seperator">|</span>
+				<div class="job-title hidden-vertical-mobile">UI Architect, Javascript Developer</div>
+			</div>
+		</header>
+<!--***************************Main Part**********************-->
+	<div class="mainpart">
+		<div class="page first-block hidden-tablet">
+					<!-- Demo Panel -->
+			<div id="options_panel" class="hidden-phone">
+				<div class="options">
+					<div class="Settings">Brand Switch:</div>
+					<table>
+						<tr>
+							<td>
+								<div class="color_picker_title">Choose Brand You Like</div>
+								<div class="clearfix" style="padding-bottom:5px"></div>
+									<ul class="color_suggestions sf-js-enabled sf-shadow">
+										<li data-value="1" style="background:transparent url(assets/img/32/gray.jpg) center no-repeat;" title="All Star"></li>
+										<li data-value="2" style="background:transparent url(assets/img/32/green.jpg) center no-repeat;" title="Dark All Star"></li>
+										<li data-value="3" style="background:transparent url(assets/img/32/brown.jpg) center no-repeat;" title="Cup Cake"></li>
+										<li data-value="4" style="background:transparent url(assets/img/32/yellow.jpg) center no-repeat;"  title="Autumn"></li>
+										<li data-value="5" style="background:transparent url(assets/img/32/orange.jpg) center no-repeat;"  title="Sunrise"></li>
+										<li data-value="6" style="background:transparent url(assets/img/32/red.jpg) center no-repeat;"  title="RedSky"></li>
+										<li data-value="7" style="background:transparent url(assets/img/32/purple.jpg) center no-repeat;"  title="Pure Blood"></li>
+										<li data-value="8" style="background:transparent url(assets/img/32/blue.jpg) center no-repeat;"  title="Valentine"></li>
+									</ul>
+								<div class="clear"></div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<h3><span class="icon-wrench icon-white"></span></h3>
+			</div>
+	<!-- Demo Panel End -->	
+		</div>
+<!--***************************HOME**********************-->
+		<div class="page wrap" id="home">
+			<img src="https://scontent-sit4-1.xx.fbcdn.net/v/t31.0-8/13122929_1149066201791534_786231718309759580_o.jpg?oh=d4a684d204032becdcf7df7a24b2d3cc&oe=59571EE6" alt="my-photo" class="mypic"/>	
+			<div class="row">
+				<div class="span6">
+					<div class="about-text">
+						<!-- Title -->
+						<div class="about-title">
+							<h3>ANUJ SACHAN</h3>
+							<h6>UI Architect</h6>
+						</div>
+						<!-- Title End -->
 
-		<p>Below is an image of Earth from NASA</p>
+						<!-- Author biography -->
+						<div class="about-paragraph">
+							<p>I am Javascript enthusiast with <span id="work-ex"> loading...</span> years of experience, who constantly strives to further my abilities. I like to refer to myself as a “Design-geneer” for my passion for creating Scalable Architectures. I design pixel based solutions for the web and mobile and develop websites and web applications. I am proficient in Angular, Bootstrap, React JS, Redux, Compass, Node JS, grunt, bower, SASS, and unit testing frameworks like QUnit, Jasmine, Mocha-Chai.</p>
 
-		<p><img src="" alt="Image of Earth from Nasa" class="targetImage"></p>		
+									<p>I build websites. I specialize in front-end development HTML5, CSS3, JavaScript but many times I get my hands dirty with some backend (PHP, MySQL). And I love WordPress. I’m a multidisciplinary digital designer and developer, and excel at integrating seamlessly into my organizational teams, becoming their go-to developer of choice as I seamlessly fit into development workflows. I’ve designed streamlined, easy-to-use websites and user interfaces. I work to the principle that less is more, while carefully and strategically including important details and interactions.</p>
+
+									<p>I develop compelling designs that spring to life using transition and animations that suit my clients, using the most sophisticated technologies available today for fully interactive and responsive websites and apps. I develop fast interactive front ends, using the latest technologies and techniques to reduce page load time. I use my knowledge and tools to save time in development, including preprocessors and my own custom framework to kick start a project.</p>
+
+									<p>I have demonstrated an ability to lead small Teams and mentor other workers. I pride myself on being able to use my knowledge and initiative to deliver high quality results to tight deadlines. I enjoy a challenge and look for the opportunity to expand and develop my skill set
+							</p>
+						</div>
+						<!-- Author biography End -->
+
+						<!-- signiture -->
+						<div class="signiture">
+							<img src="assets/content/signiture.png" alt="signiture"/>
+						</div>
+						<!-- signiture End -->
+					</div>	
+				</div>
+			</div>
+		</div>
+
+				
+<!--************************RESUME********************-->				
+				<div class="page wrap" id="resume">
+					<!-- skills Charts -->
+					<div class="charts clearfix">
+						<!-- Subject for all charts -->
+						<div class="chart-title">
+							<h4>Skill<br/>Achievement</h4>
+						</div>
+						<!-- End: Subject for all charts -->
+						<!-- carousel of charts -->
+						<ul class="car hideme">
+                            <!-- 1st chart -->
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="88"><span>90%</span></div>
+									<p>Javascript</p>
+								</div>
+                            </li>
+                            <!-- 1st chart End -->
+                            <!-- 2nd chart -->
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="70"><span>70%</span></div>
+									<p>React/Redux JS</p>
+								</div>
+                            </li>
+                            <!-- 2nd chart End -->
+                            <!-- 3d chart -->
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="90"><span>90%</span></div>
+									<p>HTML/CSS/SCSS</p>
+								</div>
+                            </li>
+                             <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="95"><span>95%</span></div>
+									<p>OOJS</p>
+								</div>
+                            </li>
+
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="93"><span>93%</span></div>
+									<p>SPA</p>
+								</div>
+                            </li>
+                            <!-- 3d chart End -->
+                            <!-- 4th chart -->
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="50"><span>50%</span></div>
+									<p>Angular Js</p>
+								</div>
+                            </li>
+                            <!-- 4th chart Ends -->
+                            <!-- 5th chart -->
+                            <li>
+                                <div class="chartbox">
+                                    <div class="chart hideme" data-percent="90"><span>90%</span></div>
+                                    <p>ESMA6</p>
+                                </div>
+                            </li>
+                            <!-- 5th chart Ends -->
+                            <!-- 6th chart -->
+                            <li>
+                                <div class="chartbox">
+                                    <div class="chart hideme" data-percent="60"><span>60%</span></div>
+                                    <p>DevOps</p>
+                                </div>
+                            </li>
+                            <!-- 6th chart Ends -->
+                            <!-- 7th chart -->
+                            <li>
+                                <div class="chartbox">
+                                    <div class="chart hideme" data-percent="90"><span>90%</span></div>
+                                    <p>GIT</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="chartbox">
+                                    <div class="chart hideme" data-percent="90"><span>90%</span></div>
+                                    <p>WEBPACK</p>
+                                </div>
+                            </li>
+                            <!-- 7th chart Ends -->
+                        </ul>
+						<!-- End: carousel of charts -->
+                        <div class="clearfix"></div>
+                        <a id="prev2" class="resume-skill-prev"  href="#"><img src="assets/img/back-resume.png" alt="prev"></a>
+                        <a id="next2" class="resume-skill-next"  href="#"><img src="assets/img/next-resume.png" alt="next"></a>
+					</div>
+                    <!-- End: skills Charts -->
+                    <!-- List of your Experiences -->
+                    <div class="skills clearfix">
+                        <span class="resume-seperator"></span>
+                        <!-- Title for this part -->
+                        <div class="chart-title skills-title">
+                            <h4>Work<br/>Experience</h4>
+                        </div>
+                        <!-- End: Title for this part -->
+                        <div id="resume-definition">
+							<!-- carousel of experiences -->
+                            <ul class=" experiences clearfix">
+                                <!-- 1st Experience -->
+                                <li>
+                                    <div class="exp">
+                                        <span class="popup-with-form" href="#work_experience_1">
+                                            <div class="work-title">Senior Experience Technologist at Sapient</div>
+                                            <div class="work-title period">Period: 2014 – present</div>
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                                <!-- 1st Experience End -->
+                                
+                                <!-- 2nd Experience -->
+                                <li>
+                                    <div class="exp">
+										<span class="popup-with-form">
+											<div class="work-title">Javascript Developer | Unicommerce PVT LTD</div>
+											<div class="work-title period">Period: 2013 – 2014</div>
+										</span>
+
+                                    </div>
+                                </li>
+                                <!-- 2nd Experience End -->
+                                <!-- 3rd Experience -->
+                                <li>
+                                    <div class="exp">
+										<span class="popup-with-form">
+											<div class="work-title">Wordpress Developer | Boxbeat Technology</div>
+											<div class="work-title period">Period: 2012 – 2013</div>
+										</span>
+										<!-- Exp. definition -->
+					
+                                    </div>
+                                </li>
+                                <!-- 3rd Experience End -->
+                                
+                                <!-- 4th Experience -->
+                                <li>
+                                    <div class="exp">
+                                        <span class="popup-with-form">
+                                            <div class="work-title">Free lancer | Odesk | Upwork</div>
+                                            <div class="work-title period">Period: 2009 – 2013</div>
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                                <!-- 4th Experience End -->
+                                <!-- 5th Experience -->
+                                <li>
+                                    <div class="exp">
+                                        <span class="popup-with-form">
+                                            <div class="work-title">Ethical Hacking Trainer | Innobuzz | Techskills </div>
+                                            <div class="work-title period">Period: 2009 – 2013</div>
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                                <!-- 5th Experience End -->
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <a id="resume-exp-prev" class="resume-skill-prev"  href="#"><img src="assets/img/back-resume.png"  alt="prev"></a>
+                        <a id="resume-exp-next" class="resume-skill-next"  href="#"><img src="assets/img/next-resume.png"  alt="next"></a>
+                    </div>
+                    <!-- List of your Experiences -->
+				</div>
+				
+<!--************************contact************************-->
+				<div class="page wrap" id="contact">
+					<div class="clearfix">
+						<div class="span5 contact-info">
+							<div class="clearfix">
+								<div class="contact-title"><h2>contact</h2></div>
+                                <!-- Socila Links -->
+								<ul class="socials clearfix">
+									<li class="facebook"><a href="https://www.facebook.com/anujdhungryhacker"></a></li>
+									<li class="linkedin"><a href="https://www.linkedin.com/in/anuj-sachan-04a3a224/"></a></li>
+								</ul>
+                                <!--End: Socila Links-->
+							</div>
+                            <!-- Contact Info -->
+							<div class="contact-add">
+								<div><span>Address: </span><span> Gurugram</span></div>
+								<div><span>E-mail: </span><span>anuj.sachan51@gmail.com</span></div>
+							</div>
+                            <!-- End: Contact Info -->
+                            <!--Contact Form-->
+                            <div id="respond_wrap">
+                                <div id="respond">
+                                    <form id="comment_form" method="post" class="contact" action="http://demo2.pixflow.net/profession-html/lib/contact.php">
+                                        <fieldset>
+                                            <input type="hidden" name="action" value="contact_form"  />
+                                            <div class="text_input" id="name">
+                                                <input tabindex="1" type="text" name="name" value="" placeholder="Your Name" />
+                                                <span class="nameError hidden"></span>
+                                            </div>
+                                            <div class="text_input" id="email">
+                                                <input tabindex="2" type="text" name="email" value=""  placeholder="Email Address" />
+                                                <span class="emailError hidden"></span>
+                                            </div>
+											<div class='clearfix'></div>
+                                            <div class="text_input">
+                                                <input tabindex="3" type="text" name="company" value="" placeholder="Company Name" />
+                                                <span class="companyError hidden"></span>
+                                            </div>
+                                            <div class="textarea_input">
+                                                <textarea tabindex="4" rows="10" cols="58" name="comment"  placeholder="Your Message"></textarea>
+                                                <span class="commentError hidden"></span>
+                                            </div>
+
+                                            <div class="btn send-button">
+                                                <input tabindex="5" type="submit" value="Submit"/>
+                                                <!--    <span class="text">Send</span>-->
+                                            </div>
+                                            <div class="loader hidden"></div>
+                                            <div class="AjaxError hidden">An error has been occurred while sending message.</div>
+                                            <div class="AjaxSuccess hidden">Your message has been sent successfully.</div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                            <!--Contact Form End-->
+						</div>
+						<div class="gmap3 span7" id="map"></div>
+					</div>
+				</div>
+				
+<!--************************last white part************************-->
+				<div class="page first-block" ></div>
 	</div>
-    <script src="js/app.js"></script>
+	<!--End: mainpart -->
+	
+<!--************************Footer************************-->
+	<footer class="wrap">
+		<div class="footer-center clearfix">
+			<div class="footer-border"></div>
+			<div class="copyright">
+				<span>All rights reserved Anuj Sachan</span>
+			</div>
+			<div class="footer-border"></div>
+		</div>
+	</footer>
+		
+<!--************************scripts******************-->
+	<script  type="text/javascript" src="assets/js/bundle.js"></script>
+	<script  type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyBztlcwMp0Ffsu8tFWT38P4YWdY5tAUtzY"></script>
+	<script type="text/javascript">
+		var ZoomLevel=6,
+        CITY_MAP_CENTER_LAT= 28.4595,
+        CITY_MAP_CENTER_LNG=77.0266;
+	</script>
+	<script>
+		function updateMyWorkEx(){
+var df= new Date("7/1/2012");
+var dt = new Date();   
+
+var allMonths= dt.getMonth() - df.getMonth() + (12 * (dt.getFullYear() - df.getFullYear()));
+var allYears= dt.getFullYear() - df.getFullYear();
+var partialMonths = dt.getMonth() - df.getMonth();
+
+if (partialMonths < 0) {
+    allYears--;
+    partialMonths = partialMonths + 12;
+}
+$("#work-ex").text(allYears+"."+partialMonths);
+			}
+		updateMyWorkEx();
+		
+	
+
+
+	</script>
+	
+	
 </body>
-</html>
+</html>	
