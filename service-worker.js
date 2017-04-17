@@ -6,9 +6,14 @@ var cacheFiles = [
 	'./',
 	'./index.html',
 	'./js/app.js',
+	'./assets/js/bundle.js',
 	'./css/reset.css',
-	'./css/style.css',
-	'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic'
+	'./assets/css/isotope.css',
+	'./assets/css/jquery.easy-pie-chart.css',
+	'./assets/css/magnific-popup.css',
+	'./assets/css/demo_panel.css',
+	'./assets/css/jquery.mCustomScrollbar.css',
+	'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'
 ]
 
 
