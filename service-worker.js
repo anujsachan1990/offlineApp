@@ -4,6 +4,7 @@ var cacheName = 'v1';
 // Default files to always cache
 var cacheFiles = [
 	'./',
+	'./style.css',
 	'./index.html',
 	'./js/app.js',
 	'./assets/js/bundle.js',
