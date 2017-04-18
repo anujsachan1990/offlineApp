@@ -14,6 +14,7 @@ var cacheFiles = [
 	'./assets/css/magnific-popup.css',
 	'./assets/css/demo_panel.css',
 	'./assets/css/jquery.mCustomScrollbar.css',
+	'./assets/img/*',
 	'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'
 ]
 
