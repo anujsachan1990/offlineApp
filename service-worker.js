@@ -17,8 +17,7 @@ var cacheFiles = [
 	'./assets/img/back-resume.png',
 	'./assets/content/signiture.png',
 	'./assets/img/next-resume.png',
-	
-	'https://scontent-sit4-1.xx.fbcdn.net/v/t31.0-8/13122929_1149066201791534_786231718309759580_o.jpg?oh=d4a684d204032becdcf7df7a24b2d3cc&oe=59571EE6',
+	'https://scontent.fdel1-1.fna.fbcdn.net/v/t31.0-8/13122929_1149066201791534_786231718309759580_o.jpg?oh=bc5d32597f91adc5fbfec6008b2c9933&oe=59CDC5E6',
 	'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'
 ]
 
